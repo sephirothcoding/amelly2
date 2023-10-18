@@ -20,21 +20,29 @@
     }
 
     /* Stilurile pentru meniu */
-    .menu {
-      background: #B98DFF; /* Background color for the menu set to another shade of purple */
-      text-align: center;
-      padding: 10px 0;
-    }
+   /* Stilurile pentru meniu */
+.menu {
+  background: #B98DFF; /* Background color for the menu set to another shade of purple */
+  text-align: center;
+  padding: 10px 0;
+  display: flex; /* Make the menu items flex containers */
+  justify-content: space-around; /* Distribute menu items evenly */
+}
 
-    .menu a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-    }
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #A55CFF; /* Background color of the menu items */
+  border: 1px solid #B98DFF; /* Add a border to create button appearance */
+  border-radius: 5px; /* Rounded corners */
+  transition: background 0.3s; /* Smooth background color transition on hover */
+}
 
-    .menu a:hover {
-      background: #A55CFF; /* Background color on hover set to a different shade of purple */
-    }
+.menu a:hover {
+  background: #A55CFF; /* Background color on hover set to a different shade of purple */
+}
+
 
     /* Stilurile pentru casetele JD */
     .jd-box-container {
